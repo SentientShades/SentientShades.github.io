@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Senti Portfolio</title>
+    <meta name="description" content="sentis freaking awesome portfolio" />
+    <meta name="author" content="senti" />
+
+    <meta property="og:title" content="Senti Portfolio" />
+    <meta property="og:description" content="sentis freaking awesome portfolio" />
+    <meta property="og:type" content="website" />
+
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@senti" />
+
+    <link rel="stylesheet" href="App.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="marquee-bar">
+            <div class="marquee-text">★ my awesome freaking portfolio!! ★ ★ i see you ★</div>
+        </div>
+
+        <div class="header-box">
+            <div class="header-image-container">
+                <img src="src/assets/shades.png" alt="Shades" class="header-bg-image">
+            </div>
+            <h1>SENTI</h1>
+            <div class="subtitle">Software and UI developer</div>
+            <div class="visitors">Visitors: <span class="visitor-count">Loading...</span></div>
+            <div class="web20-badge">▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ </div>
+        </div>
+
+        <nav class="nav">
+            <a href="#" class="nav-link" data-target="about">About</a>
+            <a href="#" class="nav-link" data-target="projects">Projects</a>
+            <a href="#" class="nav-link" data-target="gallery">Gallery</a>
+            <a href="#" class="nav-link" data-target="contact">Contact</a>
+        </nav>
+
+        <hr class="divider" />
+
+        <div class="content-panels">
+            <section id="panel-about" class="content-panel active">
+                <div class="section-box">
+                    <h2>yo!!!</h2>
+                    <p>Hey! My name is Senti, and I am a Software Developer! I also do a bit of UI/UX (including polishing) and 3D Modeling, but I just love to create in general. <span class="ripple-text">Please click on one of the buttons above to explore everything this site has to offer!</span></p>
+
+
+
+                    <h3 style="margin-top: 20px; margin-bottom: 12px; font-size: 14px;">Programming Languages</h3>
+
+                    <div class="skills-grid">
+                        <div class="skill-item" data-lang="csharp">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" class="skill-icon-img">
+                            <span class="skill-name">C#</span>
+                            <span class="skill-years">4 years</span>
+                        </div>
+                        <div class="skill-item" data-lang="java">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="skill-icon-img">
+                            <span class="skill-name">Java</span>
+                            <span class="skill-years">3 years</span>
+                        </div>
+                        <div class="skill-item" data-lang="javascript">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="skill-icon-img">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-years">3 years</span>
+                        </div>
+                        <div class="skill-item" data-lang="python">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="skill-icon-img">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-years">3 years</span>
+                        </div>
+                        <div class="skill-item" data-lang="gdscript">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" alt="GDScript" class="skill-icon-img">
+                            <span class="skill-name">GDScript</span>
+                            <span class="skill-years">2 years</span>
+                        </div>
+                        <div class="skill-item" data-lang="lua">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" alt="Lua" class="skill-icon-img">
+                            <span class="skill-name">Lua/Luau</span>
+                            <span class="skill-years">5 years</span>
+                        </div>
+                        <div class="skill-item" data-lang="css">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="skill-icon-img">
+                            <span class="skill-name">CSS</span>
+                            <span class="skill-years">2 years</span>
+                        </div>
+                    </div>
+
+                    <div class="about-me-frame" style="margin-top: 20px;">
+                        <div class="section-box" style="background: #f9f9f9; min-height: 150px;">
+                            <h3 style="margin-bottom: 12px; font-size: 14px;">More About Me</h3>
+                            <p contenteditable="true" style="font-size: 12px; color: #555555; line-height: 1.6; outline: none; min-height: 100px;">
+                                I was born in the United States, but spent most of my childhood in northeastern Italy, specifically in the Friuli-Venezia Giulia region. During that time, my father bought me my first computer. I became completely obsessed with it, driven to understand exactly how it worked. That curiosity led me to discover coding, and it sparked a passion that has stayed with me ever since.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="project-frame" id="skill-project-frame">
+                        <div class="embed-wrapper">
+                            <iframe id="skill-project-iframe" src="" title="Example Project"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="panel-projects" class="content-panel">
+                <div class="section-box">
+                    <h2>My Projects</h2>
+                    <table class="projects-table">
+                        <thead>
+                            <tr>
+                                <th>Project Name</th>
+                                <th>Description</th>
+                                <th class="center">Year</th>
+                                <th class="center">Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <div class="about-me-frame" style="margin-top: 1px;">
+                                <div class="section-box" style="background: #f9f9f9; min-height: 5px;">
+                                    <h3 style="margin-bottom: 2px; font-size: 24px; color:#b64b0d">!</h3>
+                                    <p contenteditable="true" style="font-size: 15px; color: #000000; line-height: 2.6; outline: none; min-height: 5px;">
+                                        The projects listed here are a small fraction of work that I have done, as the rest are: Roblox Scripts/Games, Group contributions, or I just couldn't find them (lmao)
+                                    </p>
+                                </div>
+                                <tr class="project-row">
+                                    <td class="project-name"><a href="https://github.com/SentientShades/LUAU-Pixel-Shader" target="_blank">Luau Pixel Shader</a></td>
+                                    <td class="project-desc">A pixel shader for Roblox using Luau</td>
+                                    <td class="project-year">2024</td>
+                                    <td class="center"><a href="https://github.com/SentientShades/LUAU-Pixel-Shader" target="_blank" class="link-icon">🔗</a></td>
+                                </tr>
+                                <tr class="project-row">
+                                    <td class="project-name"><a href="https://github.com/SentientShades/Seelen-SENTI-OLED" target="_blank">Seelen SENTI-OLED</a></td>
+                                    <td class="project-desc">A Modern-ish looking taskbar theme for Seelen UI</td>
+                                    <td class="project-year">2025</td>
+                                    <td class="center"><a href="https://github.com/SentientShades/Seelen-SENTI-OLED" target="_blank" class="link-icon">🔗</a></td>
+                                </tr>
+                                <tr class="project-row">
+                                    <td class="project-name"><a href="https://github.com/SentientShades/SENTI_Spicetify-Wrapper" target="_blank">SENTI Spicetify Wrapper</a></td>
+                                    <td class="project-desc">A Spicetify wrapper extension for Spotify customization</td>
+                                    <td class="project-year">2025</td>
+                                    <td class="center"><a href="https://github.com/SentientShades/SENTI_Spicetify-Wrapper" target="_blank" class="link-icon">🔗</a></td>
+                                </tr>
+                                <tr class="project-row">
+                                    <td class="project-name"><a href="https://github.com/SentientShades/obj-renderer-python-" target="_blank">OBJ Renderer Python</a></td>
+                                    <td class="project-desc">A Python-based OBJ file renderer</td>
+                                    <td class="project-year">2025</td>
+                                    <td class="center"><a href="https://github.com/SentientShades/obj-renderer-python-" target="_blank" class="link-icon">🔗</a></td>
+                                </tr>
+                        </tbody>
+                    </table>
+                    </div>
+            </section>
+
+            <section id="panel-gallery" class="content-panel">
+                <div class="section-box">
+                    <div class="gallery-header">
+                        <h2>Photo Gallery</h2>
+                    </div>
+                    <div class="gallery-grid">
+                    </div>
+                </div>
+            </section>
+
+            <section id="panel-contact" class="content-panel">
+                <div class="section-box">
+                    <h2>Contact Me</h2>
+                    <p>Interested in working together? Reach out to me!</p>
+                    <ul class="contact-list">
+                        <li><strong>Email:</strong> <a href="mailto:sentientshades@gmail.com">sentientshades@gmail.com</a></li>
+                        <li><strong>Discord:</strong> sentiienrshadez</li>
+                    </ul>
+                </div>
+            </section>
+            </div>
+
+            <footer class="site-footer">
+                <div class="sparkly">✦ i see you!! ✦</div>
+                <p>2026. SentientShades. NO rights reserved.</p>
+                <p class="fine-print">dude you're at the bottom of the page!!!</p>
+            </footer>
+        </div>
+
+        <script type="module" src="src/main.js"></script>
+
+        <div id="lightbox" class="lightbox">
+            <img class="lightbox-content" id="lightbox-img">
+        </div>
+</body>
+
+</html>
+
